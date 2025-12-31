@@ -18,12 +18,14 @@ Sky Fury is a professional-quality horizontal scrolling aerial combat game that 
 ## Game Overview
 
 ### Unique Gameplay Features
+
 - **Horizontal Scrolling Combat**: Left-to-right aerial battles instead of traditional vertical scrolling
 - **Realistic Takeoff Sequence**: Players accelerate on a runway and lift off before engaging enemies
 - **3 Progressive Difficulty Levels**: Each with 5-7 enemy waves and epic boss encounters
 - **Multiple Weapon Systems**: Primary guns, homing missiles, plasma laser, and energy shield
 
 ### Technical Achievements
+
 - **60 FPS Performance**: Frame-rate independent physics with delta time
 - **16-Layer Parallax Backgrounds**: Creating immersive flight simulation depth
 - **Modular Architecture**: 10 Python classes totaling 3,500+ lines of clean, documented code
@@ -34,6 +36,7 @@ Sky Fury is a professional-quality horizontal scrolling aerial combat game that 
 ## Technical Implementation
 
 ### Architecture
+
 ```
 sky-fury/
 ├── sky_fury.py              # Main game loop and state management
@@ -71,12 +74,14 @@ sky-fury/
 **Initial Proposal**: Vertical scrolling shooter with 70+ waves across 2 levels, quadtree collision detection.
 
 **Strategic Pivots**:
+
 - **Direction Change**: Horizontal scrolling better utilized parallax backgrounds
 - **Takeoff Mechanics**: Added runway sequence for immersion (unexpected highlight)
 - **Scope Refinement**: 3 polished levels instead of 70+ waves
 - **Technical Simplification**: Rect-based collision proved adequate
 
 **Final Metrics**:
+
 - ✅ 90%+ proposal completion with creative improvements
 - ✅ 3 difficulty levels with 5 enemy types + 3 bosses
 - ✅ Professional code quality and documentation
@@ -87,12 +92,14 @@ sky-fury/
 ## Gameplay Experience
 
 ### Combat Systems
+
 - **Primary Weapon**: Upgradeable rapid-fire with 3 tiers
 - **Homing Missiles**: Smart tracking with limited ammunition
 - **Plasma Laser**: Piercing beam weapon
 - **Energy Shield**: Temporary invulnerability
 
 ### Enemy Variety
+
 1. **Drone**: Fast basic enemies
 2. **Bomber**: Armored slow-movers
 3. **Gunship**: Counter-attacking units
@@ -100,19 +107,44 @@ sky-fury/
 5. **Kamikaze**: Suicide attackers
 
 ### Boss Encounters
+
 1. **Hive Queen**: Drone spawning with spread attacks
 2. **Aegis Defender**: Shielded fortress with laser patterns
 3. **Final Destroyer**: Multi-phase devastating attacks
 
 ---
 
+## Screenshots
+
+### Main Menu
+![Main Menu](assets/first_scrren.png)
+
+### Level Selection
+![Level Selection](assets/slect_level.png)
+
+### Aerial Combat
+![Aerial Combat](assets/fly.png)
+
+### Boss Battle
+![Boss Battle](assets/boss.png)
+
+### Final Boss Encounter
+![Final Boss](assets/final_boss.png)
+
+### Game Over Screen
+![Game Over](assets/gameover.png)
+
+---
+
 ## Installation & Execution
 
 ### Prerequisites
+
 - Python 3.8 or higher
 - pip package manager
 
 ### Setup
+
 ```bash
 # Install dependencies
 pip install -r requirements.txt
@@ -122,6 +154,7 @@ python sky_fury.py
 ```
 
 ### System Requirements
+
 - Minimal hardware requirements
 - Cross-platform compatibility (Windows/macOS/Linux)
 - No external dependencies beyond Pygame
@@ -131,6 +164,7 @@ python sky_fury.py
 ## Project Impact
 
 ### Technical Skills Demonstrated
+
 - Game physics and mathematics
 - Object-oriented design patterns
 - Performance optimization
@@ -138,12 +172,14 @@ python sky_fury.py
 - UI/UX implementation
 
 ### Learning Outcomes
+
 - Agile development and scope management
 - Balancing technical constraints with creative vision
 - Professional code documentation and testing
 - Project planning and iterative improvement
 
 ### Career Readiness
+
 - Complete end-to-end game development
 - Portfolio-quality demonstration project
 - Foundation for commercial game development
@@ -154,12 +190,14 @@ python sky_fury.py
 ## Future Enhancements
 
 ### Gameplay Expansions
+
 - Additional levels and enemy types
 - Co-op multiplayer mode
 - Player ship customization
 - Endless survival mode
 
 ### Technical Improvements
+
 - Advanced AI with formation flying
 - Enhanced particle effects
 - Controller support
@@ -175,4 +213,4 @@ Sky Fury represents a successful transformation from academic concept to profess
 
 ---
 
-*Developed as a final assignment project demonstrating advanced game development skills.*
+_Developed as a final assignment project demonstrating advanced game development skills._
